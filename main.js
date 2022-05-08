@@ -1,4 +1,3 @@
-
 /*created by prashant shukla */
 
 var paddle2 =10,paddle1=10;
@@ -22,7 +21,8 @@ var ball = {
 }
 
 function setup(){
-  var canvas =  createCanvas(700,600);
+  var canvas =  createCanvas(700,550);
+  canvas.center();
 }
 
 
